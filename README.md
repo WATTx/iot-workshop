@@ -29,14 +29,14 @@ There's 4 things you'll need to do:
 4. Go to *Tools -> Board: "Arduino..." -> Board Managers* and Install *esp8266 by ESP8266 Community*
 
     ![Board manager link](https://cdn.sparkfun.com/assets/learn_tutorials/3/6/5/arduino-board-install.png)
-
-    _Once you have a Wemos and a Micro USB cable_
     
 5. Download the [Blynk Arduino Library](https://github.com/blynkkk/blynk-library/archive/master.zip).
 
 6. In the Arduino App, go to Sketch > Include Library > Add .ZIP Library ![screenshot](img/ziplib.png)
 
 7. Navigate to the Library you've just downloaded and add Choose it.
+
+    _Once you have a Wemos and a Micro USB cable_
 
 5. From *Tools -> Board: "Arduino..." ->* select the *WeMos D1 R2 & Mini*
 
