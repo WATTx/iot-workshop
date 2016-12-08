@@ -34,7 +34,9 @@ There's 4 things you'll need to do:
     
 5. Download the [Blynk Arduino Library](https://github.com/blynkkk/blynk-library/archive/master.zip).
 
-6. In the Arduino App
+6. In the Arduino App, go to Sketch > Include Library > Add .ZIP Library ![screenshot](img/ziplib.png)
+
+7. Navigate to the Library you've just downloaded and add Choose it.
 
 5. From *Tools -> Board: "Arduino..." ->* select the *WeMos D1 R2 & Mini*
 
