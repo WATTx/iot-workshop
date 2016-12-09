@@ -55,3 +55,14 @@ There's 4 things you'll need to do:
 
 ## That's it! Awesome! You're done. See you at the workshop.
 
+## On Linux
+
+* skip first step
+* add yourself to the dialout group
+
+```
+sudo usermod -a -G dialout $USER
+```
+
+* log out and log back in
+* follow step 2 and 3
