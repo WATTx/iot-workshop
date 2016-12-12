@@ -36,7 +36,7 @@ There's 4 things you'll need to do:
 
 7. Navigate to the Library you've just downloaded and add Choose it.
 
-    _Once you have a Wemos and a Micro USB cable (come and get one!)_
+    _*Testing*: Not mandatory but if you want to test your setup beforehand, come get a Wemos and a Micro USB cable and follow the next 4 steps._
 
 5. From *Tools -> Board: "Arduino..." ->* select the *WeMos D1 R2 & Mini*
 
