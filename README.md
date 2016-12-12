@@ -36,7 +36,7 @@ There's 4 things you'll need to do:
 
 7. Navigate to the Library you've just downloaded and add Choose it.
 
-    _Once you have a Wemos and a Micro USB cable_
+    _Once you have a Wemos and a Micro USB cable (come and get one!)_
 
 5. From *Tools -> Board: "Arduino..." ->* select the *WeMos D1 R2 & Mini*
 
@@ -44,7 +44,7 @@ There's 4 things you'll need to do:
 
 7. Go to Examples > ESP8266 > Blink.
 
-8. Click the Upload button and wait for it.
+8. Click the Upload button and wait for it. If all goes well, you should have a blinking blue LED on your Wemos.
 
 
 ## Step 3 - Download the Blynk App & Sign Up
@@ -55,7 +55,7 @@ There's 4 things you'll need to do:
 
 ## That's it! Awesome! You're done. See you at the workshop.
 
-## On Linux
+### On Linux
 
 * skip first step
 * add yourself to the dialout group
