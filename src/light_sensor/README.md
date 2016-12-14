@@ -1,11 +1,11 @@
-# Blynk with DHT sensor on Wemos
+# Blynk with Light sensor on Wemos
 
 ##Requirements
 
 ####The required libraries
 * Blynk library: https://github.com/blynkkk/blynk-library
 
-* DHT22 sensor: Adafruit unified sensor by Adafruit. (Install by ```Sketch->Include Library->Manage Libraries```)
+* BH1750 Light sensor: https://github.com/claws/BH1750
 
 * Simple Timer: https://github.com/schinken/SimpleTimer
 
@@ -15,9 +15,12 @@ Please refer this: http://docs.blynk.cc/
 
 ##Schematic
 
-![screenshot](./../../img/dht_wemos.png)
+![screenshot](./../../img/bh1750_wemos.png)
 
-##DHT22 sensor:
+Wemos GPIO layout:
+https://www.wemos.cc/product/d1-mini.html
+
+##BH1750 sensor:
 
 Datasheet:
-This is [datasheet](https://cdn-shop.adafruit.com/datasheets/DHT22.pdf "DHT22 Sensor").
+This is [datasheet](http://rohmfs.rohm.com/en/products/databook/datasheet/ic/sensor/light/bh1750fvi-e.pdf "BH1750 Sensor").
