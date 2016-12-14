@@ -15,7 +15,7 @@ Please refer this: http://docs.blynk.cc/
 
 ##Schematic
 
-![screenshot](img/dht_wemos.png)
+![screenshot](./../img/dht_wemos.png)
 
 ##DHT22 sensor:
 
