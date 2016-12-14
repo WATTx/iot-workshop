@@ -75,7 +75,7 @@ void setup()
 
   lightMeter.begin();
   // Setup a function to be called every second
-  timer.setInterval(2000L, sendSensor);
+  timer.setInterval(2000, sendSensor);
 
 }
 
