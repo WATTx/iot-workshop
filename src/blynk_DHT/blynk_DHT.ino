@@ -65,9 +65,10 @@ void sendSensor()
     return;
   }
 
-  if (h > 50) {
-    Blynk.notify("Your humidity is pretty high. Consider opening a window");
-  }
+//  Uncomment to play around with notifications
+//  if (h > 60) {
+//    Blynk.notify("Your humidity is pretty high. Consider opening a window");
+//  }
   
   // You can send any value at any time.
   // Please don't send more that 10 values per second.
