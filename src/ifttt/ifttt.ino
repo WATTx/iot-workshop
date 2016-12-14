@@ -1,20 +1,67 @@
+/*
+ *  This sketch sends data via HTTP GET requests to IFTTT Maker channel service.
+ *
+ *  You need to  privateKey from the Maker channel on IFTTT and paste it
+ *  below. 
+ *
+ * Based on the example code for WiFi client and button debounce example from Arduno IDE
+ */
+
+#include <ESP8266WiFi.h>
 
 void send_event(const char *event);
 
+// constants won't change. They're used here to
+// set pin numbers:
+
+// Wifi setup
+const char *ssid     = "XXXX";
+const char *password = "XXXXX";
 
 // IFTTT setup
 const char *host = "maker.ifttt.com";
 const char *privateKey = "mGHBR8ACguChSfwY38WHLBj46ercITqKMlFhacszvOx";
 
+// Hardware setup
+const int ledPin = 0;        // the number of the LED pin
 
+void setup() 
+{
+  // Set your pin modes
+  pinMode(ledPin, OUTPUT);
+  
+  // Bring up the serial for a bit of debugging
+  Serial.begin(9600);
+  delay(10);
 
-void sendSensor() 
+  // We start by connecting to a WiFi network
+  Serial.print("Connecting to ");
+  Serial.println(ssid);
+  
+  WiFi.mode(WIFI_STA);
+  WiFi.begin(ssid, password);
+
+  // Wait for the connection, flashing the LED while we wait
+  int led = HIGH;  
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(200);
+    digitalWrite(ledPin, led);
+    led = !led;
+  }
+  digitalWrite(ledPin, LOW);
+
+  Serial.println("");
+  Serial.println("WiFi connected");  
+  Serial.println("IP address: ");
+  Serial.println(WiFi.localIP());
+}
+
+void loop() 
 {
   
   send_event("wemos");
   delay(1000);
 }
-
 
 void send_event(const char *event)
 {
