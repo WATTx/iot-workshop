@@ -8,15 +8,21 @@
  */
 
 #include <ESP8266WiFi.h>
+#include <SimpleTimer.h>
 
 void send_event(const char *event);
+void disable_alarm();
 
 // constants won't change. They're used here to
 // set pin numbers:
+#define PIRPIN D4
+
+bool isEnable_state = true;
+SimpleTimer timer;
 
 // Wifi setup
 const char *ssid     = "XXXX";
-const char *password = "XXXXX";
+const char *password = "XXXX";
 
 // IFTTT setup
 const char *host = "maker.ifttt.com";
@@ -27,7 +33,7 @@ const int ledPin = 0;        // the number of the LED pin
 
 void setup() 
 {
-  // Set your pin modes
+  pinMode(PIRPIN, INPUT);
   pinMode(ledPin, OUTPUT);
   
   // Bring up the serial for a bit of debugging
@@ -54,13 +60,26 @@ void setup()
   Serial.println("WiFi connected");  
   Serial.println("IP address: ");
   Serial.println(WiFi.localIP());
+
+  
 }
 
 void loop() 
 {
   
-  send_event("wemos");
-  delay(1000);
+  timer.run();
+  if(digitalRead(PIRPIN) == 1 && isEnable_state == true){
+    Serial.println("trigger send event");
+    send_event("wemos_slack");
+    isEnable_state = false;
+    timer.setTimeout(600000, disable_alarm);
+
+  }
+  //delay(1000);
+}
+
+void disable_alarm(){
+  isEnable_state = true;
 }
 
 void send_event(const char *event)
