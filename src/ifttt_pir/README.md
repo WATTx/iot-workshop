@@ -7,20 +7,19 @@ Wemos creates a WiFi client and sends a URL request to IFTTT server to enable sl
 ##IFTT Maker channel configuration
 
 1. Create an IFTTT account.
-![screenshot](./../../img/create_ifttt_account.png  =24x48)
+<img src=./../../img/create_ifttt_account.png width=600 />
 2. Enable Maker channel. 
  
  Now we are using this Maker channel which we can our own DIY project by simplying receiving or sending a web request.
- 
-![screenshot](./../../img/search_maker.png)
-![screenshot](./../../img/maker_channel.png)
+ <img src=./../../img/search_maker.png width=600 />
+ <img src=./../../img/maker_channel.png width=600 />
 
 3. Create our own IFTTT service. Go to My Applets -> New Applet.
-![screenshot](./../../img/new_applet.png)
+<img src=./../../img/new_applet.png width=600 />
 4. IF something happens
-![screenshot](./../../img/if_this.png)
+<img src=./../../img/if_this.png width=600 />
 5. Then that...
-![screenshot](./../../img/then_that.png)
+<img src=./../../img/then_that.png width=600 />
 
 ##Send an url request from Wemos
 
@@ -36,9 +35,9 @@ const char *password = "XXXX";
 ```
 const char *privateKey = "mGHBR8ACguChSfwY38WHLBj46ercITqKMlFhacszvOx";
 ```
-![screenshot](./../../img/private_key.png)
+<img src=./../../img/private_key.png width=600 />
 
 ```
 send_event("wemos_demo");
 ```
-![screenshot](./../../img/triggered_event.png)
+<img src=./../../img/triggered_event.png width=600 />
