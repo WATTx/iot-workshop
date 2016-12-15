@@ -14,11 +14,11 @@ Wemos creates a WiFi client and sends a URL request to IFTTT server to enable sl
 
 3. Create our own IFTTT service.  
 Go to My Applets -> New Applet.  
-<img src=./../../img/new_applet.png width=600 />  
+<img src=./../../img/new_applet.png width=500 />  
 4. IF something happens  
-<img src=./../../img/if_this.png width=600 />  
+<img src=./../../img/if_this.png width=500 />  
 5. Then that...  
-<img src=./../../img/then_that.png width=600 />  
+<img src=./../../img/then_that.png width=500 />  
 
 ##Send an url request from Wemos
 
