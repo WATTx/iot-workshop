@@ -19,6 +19,7 @@ Go to My Applets -> New Applet.
 <img src=./../../img/if_this.png width=500 />  
 5. Then that...  
 <img src=./../../img/then_that.png width=500 />  
+<img src=./../../img/services.png/>  
 
 ##Send an url request from Wemos
 
