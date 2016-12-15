@@ -40,4 +40,10 @@ send_event("wemos_demo");
 <img src=./../../img/triggered_event.png width=400 />
 
 ##PIR schematic  
+```
+Vdd = POWER SOURCE.
+Vss = GROUND.
+Vdl = GROUND.
+VserialIn = Output SIGNAL.
+```
 <img src=./../../img/pir_schematic.png width=400 />
