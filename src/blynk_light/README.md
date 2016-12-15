@@ -14,8 +14,7 @@
 Please refer this: http://docs.blynk.cc/
 
 ##Schematic
-
-![screenshot](./../../img/bh1750_wemos.png)
+<img src=./../../img/bh1750_wemos.png width=300 /> 
 
 Wemos GPIO layout:
 https://www.wemos.cc/product/d1-mini.html
