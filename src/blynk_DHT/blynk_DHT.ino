@@ -46,7 +46,7 @@ char ssid[] = "XXXXXX";
 char pass[] = "XXXXXXX";
 
 
-#define DHTPIN D4          // What digital pin we're connected to
+#define DHTPIN D2          // What digital pin we're connected to
 #define DHTTYPE DHT22   // DHT 22, AM2302, AM2321
 
 DHT dht(DHTPIN, DHTTYPE);
