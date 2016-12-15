@@ -20,6 +20,10 @@ Go to My Applets -> New Applet.
 5. Then that...  
 <img src=./../../img/then_that.png width=500 />  
 <img src=./../../img/services.png/>  
+6. Testing using CURL  
+```
+curl -X POST https://maker.ifttt.com/trigger/{event_name}/with/key/{secret_key}
+```
 
 ##Send an url request from Wemos
 
