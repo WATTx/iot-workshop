@@ -7,7 +7,7 @@ Wemos creates a WiFi client and sends a URL request to IFTTT server to enable sl
 ##IFTT Maker channel configuration
 
 1. Create an IFTTT account.
-![screenshot](./../../img/create_ifttt_account.png)
+![screenshot](./../../img/create_ifttt_account.png width="30")
 2. Enable Maker channel. 
  
  Now we are using this Maker channel which we can our own DIY project by simplying receiving or sending a web request.
