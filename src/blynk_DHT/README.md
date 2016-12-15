@@ -5,7 +5,8 @@
 ####The required libraries
 * Blynk library: https://github.com/blynkkk/blynk-library
 
-* DHT22 sensor: Adafruit unified sensor by Adafruit. (Install by ```Sketch->Include Library->Manage Libraries```)
+* DHT22 sensor: Adafruit unified sensor by Adafruit.  
+(Install by ```Sketch->Include Library->Manage Libraries->adafruit unified sensor```)
 
 * Simple Timer: https://github.com/schinken/SimpleTimer
 
