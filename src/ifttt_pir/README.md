@@ -26,11 +26,8 @@ Go to My Applets -> New Applet.
 ```
 const char *ssid     = "XXXX";
 const char *password = "XXXX";
-
-```  
-
+```
 2. Change your own private key and customized triggered event name.  
-
 ```
 const char *privateKey = "mGHBR8ACguChSfwY38WHLBj46ercITqKMlFhacszvOx";
 ```  
@@ -40,3 +37,6 @@ const char *privateKey = "mGHBR8ACguChSfwY38WHLBj46ercITqKMlFhacszvOx";
 send_event("wemos_demo");
 ```  
 <img src=./../../img/triggered_event.png width=400 />
+
+##PIR schematic  
+<img src=./../../img/pir_schematic.png width=400 />
