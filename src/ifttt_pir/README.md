@@ -30,13 +30,15 @@ const char *ssid     = "XXXX";
 const char *password = "XXXX";
 
 ```
-![screenshot](./../../img/create_ifttt_account.png)
-![screenshot](./../../img/create_ifttt_account.png)
+
 2. Change your own private key and customized triggered event name.
+
 ```
 const char *privateKey = "mGHBR8ACguChSfwY38WHLBj46ercITqKMlFhacszvOx";
 ```
+![screenshot](./../../img/private_key.png)
+
 ```
 send_event("wemos_demo");
 ```
-
+![screenshot](./../../img/triggered_event.png)
