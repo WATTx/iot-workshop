@@ -1,6 +1,6 @@
 # ESP8266 To IFTTT Using Arduino IDE
 
-The following instructions demostrates how to send the Notification to slack channel if the humidity is too high.  
+The following instructions demostrates how to send the Notification via SMS if the PIR sensor detects motion.  
 Wemos creates a WiFi client and sends a URL request to IFTTT server to enable slack channel notification service.  
 
 ##IFTT Maker channel configuration
@@ -43,7 +43,7 @@ send_event("wemos_demo");
 ```  
 <img src=./../../img/triggered_event.png width=400 />
 
-##PIR schematic  
+##PIR motion sensor schematic  
 ```
 Vdd = POWER SOURCE.
 Vss = GROUND.
