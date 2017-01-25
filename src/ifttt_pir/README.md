@@ -3,7 +3,7 @@
 The following instructions demostrates how to send the Notification via SMS if the PIR sensor detects motion.  
 Wemos creates a WiFi client and sends a URL request to IFTTT server to enable slack channel notification service.  
 
-##IFTT Maker channel configuration
+##IFTTT Maker channel configuration
 
 1. Create an IFTTT account.  
 <img src=./../../img/create_ifttt_account.png width=600 />  
