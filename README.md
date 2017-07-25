@@ -10,11 +10,13 @@ There's 4 things you'll need to do:
 * Test it!
 
 
-## Step 1 — Install the drivers to connect to the Wemos (macOS only)
+## Step 1 — Install driver to connect to the Wemos (macOS and Windows only)
+For Mac:  
+**WARNING**: if you've used one of our Wemos before installing Sierra on your Mac and have the old CH340 drivers, connecting the Wemos to your USB port _will_ crash your Mac. Go to http://www.mblock.cc/posts/run-makeblock-ch340-ch341-on-mac-os-sierra and follow these instructions:  
+Download this [file](http://download.makeblock.com/mblock/CH34x_Install_V1.3.pkg) and run it. You'll need to restart your Mac after the installation is finished.  
+For Windows:  
+Some versions of Windows, the device cannot be detected due to missing driver. Please follow [this](http://www.dnatechindia.com/ch340g-drivers-download-installation-guide.html) to manually install CH340 driver. 
 
-**WARNING: if you've used one of our Wemos before installing Sierra on your Mac and have the old CH340 drivers, connecting the Wemos to your USB port _will_ crash your Mac. Go to http://www.mblock.cc/posts/run-makeblock-ch340-ch341-on-mac-os-sierra and follow these instructions**
-
-1. Download this [file](http://download.makeblock.com/mblock/CH34x_Install_V1.3.pkg) and run it. You'll need to restart your Mac after the installation is finished.
 
 ## Step 2 — Install & Configure the Arduino app
 
