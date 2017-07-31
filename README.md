@@ -64,7 +64,7 @@ Some versions of Windows, the device cannot be detected due to missing driver. P
 
 2. Sign up for an account.
 
-## That's it! Awesome! You're done. See you at the workshop.
+## That's it! Awesome! You're done. Have fun hacking.
 
 ### On Linux
 
