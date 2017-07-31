@@ -47,7 +47,7 @@ Some versions of Windows, the device cannot be detected due to missing driver. P
 
 8. Repeat the last two steps for the other libraries.
 
-    _**Testing**: 
+    **Testing**: 
 
 5. From *Tools -> Board: "Arduino..." ->* select the *WeMos D1 R2 & Mini*
 
