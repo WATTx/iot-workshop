@@ -32,13 +32,22 @@ Some versions of Windows, the device cannot be detected due to missing driver. P
 
     ![Board manager link](https://cdn.sparkfun.com/assets/learn_tutorials/3/6/5/arduino-board-install.png)
     
+#### Required Libraries
+
+    
 5. Download the [Blynk Arduino Library](https://github.com/blynkkk/blynk-library/archive/master.zip).
+
+5. For the  DHT11 + DHT22 sensor: download the [Adafruit unified sensor](https://github.com/adafruit/Adafruit_Sensor/archive/master.zip) or just install by doing ```Sketch->Include Library->Manage Libraries->adafruit unified sensor```.  
+
+6. Download the [SimpleTimer library](https://github.com/jfturcot/SimpleTimer/archive/master.zip)
 
 6. In the Arduino App, go to Sketch > Include Library > Add .ZIP Library ![screenshot](img/ziplib.png)
 
-7. Navigate to the Library you've just downloaded and add Choose it.
+7. Navigate to your Downloads folder and choose one of the .zip files you've downloaded.
 
-    _**Testing**: Not mandatory but if you want to test your setup beforehand, come get a Wemos and a Micro USB cable and follow the next 4 steps._
+8. Repeat the last two steps for the other libraries.
+
+    _**Testing**: 
 
 5. From *Tools -> Board: "Arduino..." ->* select the *WeMos D1 R2 & Mini*
 
