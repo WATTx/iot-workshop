@@ -1,5 +1,5 @@
 # iot-workshop
-#Walkthrough for the Prototype like a Pro! Workshop
+## Walkthrough for the Prototype like a Pro! Workshop
 
 Before the workshop, there's a few things to prepare beforehand. Please go through these instructions and in case something doesn't work out, come talk to Wen or Pedro.
 
