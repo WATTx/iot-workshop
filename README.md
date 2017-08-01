@@ -1,7 +1,7 @@
 # iot-workshop
 ## Walkthrough for the Prototype like a Pro! Workshop
 
-Before the workshop, there's a few things to prepare beforehand. Please go through these instructions and in case something doesn't work out, come talk to Wen or Pedro.
+When using a ne computer, there's a few things to prepare beforehand. Please go through these instructions and in case something doesn't work out, come talk to Wen or Pedro.
 
 There's 4 things you'll need to do:
 * Install the drivers to connect to the Wemos
