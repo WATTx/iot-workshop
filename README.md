@@ -10,13 +10,9 @@ There's 4 things you'll need to do:
 * Test it!
 
 
-## Step 1 — Install driver to connect to the Wemos (macOS and Windows only)
-For Mac:  
-**WARNING**: if you've used one of our Wemos before installing Sierra on your Mac and have the old CH340 drivers, connecting the Wemos to your USB port _will_ crash your Mac. Go to http://www.mblock.cc/posts/run-makeblock-ch340-ch341-on-mac-os-sierra and follow these instructions:  
-Download this [file](http://download.makeblock.com/mblock/CH34x_Install_V1.3.pkg) and run it. You'll need to restart your Mac after the installation is finished.  
-For Windows:  
-Some versions of Windows, the device cannot be detected due to missing driver. Please follow [this](http://www.dnatechindia.com/ch340g-drivers-download-installation-guide.html) to manually install CH340 driver. 
+## Step 1 — Install the USB-to-serial driver to connect to the Wemos
 
+Head on [here](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers) and download the driver for your operating system. Go through the installation process (**you'll need root rights for this**).
 
 ## Step 2 — Install & Configure the Arduino app
 
@@ -37,7 +33,7 @@ Some versions of Windows, the device cannot be detected due to missing driver. P
     
 5. Download the [Blynk Arduino Library](https://github.com/blynkkk/blynk-library/archive/master.zip).
 
-5. For the  DHT11 + DHT22 sensor: download the [Adafruit unified sensor](https://github.com/adafruit/Adafruit_Sensor/archive/master.zip) or just install by doing ```Sketch->Include Library->Manage Libraries->adafruit unified sensor```.  
+5. For the  DHT11 + DHT22 sensor: download the [Adafruit unified sensor](https://github.com/adafruit/Adafruit_Sensor/archive/master.zip) 
 
 6. Download the [SimpleTimer library](https://github.com/jfturcot/SimpleTimer/archive/master.zip)
 
@@ -51,7 +47,7 @@ Some versions of Windows, the device cannot be detected due to missing driver. P
 
 5. From *Tools -> Board: "Arduino..." ->* select the *WeMos D1 R2 & Mini*
 
-6. Connect the WeMos to your PC and under *Tools -> Port* select *dev/cu.wchusbserial1420*
+6. Connect the WeMos to your PC and under *Tools -> Port* select *dev/cu.SLAB_USBtoUART*
 
 7. Go to Examples > ESP8266 > Blink.
 
