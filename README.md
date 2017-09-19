@@ -7,7 +7,7 @@ There's 4 things you'll need to do:
 * Install the driver to connect to the Wemos
 * Install & configure the Arduino app
 * Sign-up for the Blynk mobile app
-* Test it!
+* Test it (*you'll need the hardware for this*)!
 
 
 ## Step 1 — Install the USB-to-serial driver to connect to the Wemos
