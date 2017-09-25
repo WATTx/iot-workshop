@@ -33,7 +33,7 @@ Head on [here](https://www.silabs.com/products/development-tools/software/usb-to
     
 5. Download the [Blynk Arduino Library](https://github.com/blynkkk/blynk-library/archive/master.zip).
 
-5. For the  DHT11 + DHT22 sensor: download the [Adafruit unified sensor](https://github.com/adafruit/Adafruit_Sensor/archive/master.zip) library. 
+5. For the  DHT11 + DHT22 sensor: download the [Adafruit unified sensor](https://github.com/adafruit/Adafruit_Sensor/archive/master.zip) library and the [Adafruit DHT sensor]https://github.com/adafruit/DHT-sensor-library/archive/master.zip library.
 
 6. Download the [SimpleTimer library](https://github.com/jfturcot/SimpleTimer/archive/master.zip)
 
